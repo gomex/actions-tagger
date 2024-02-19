@@ -62,6 +62,9 @@ on:
   release:
     types: [published, edited]
 
+permissions:
+  contents: write
+
 jobs:
   actions-tagger:
     runs-on: windows-latest
